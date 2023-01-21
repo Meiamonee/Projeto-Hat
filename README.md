@@ -1,6 +1,6 @@
 # Projeto I hat in Time
 
-![preview](./.github/preview.png)
+![preview](./.github/teste.png)
 
 >## 
 
