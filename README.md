@@ -13,7 +13,7 @@ Projeto construido do evento Dev em Dobro.
 
 - HTML
 - CSS
--Java Script
+- JavaScript
 - Git e Github
 
 >## Contado
