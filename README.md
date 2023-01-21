@@ -7,7 +7,7 @@
 
 Projeto construido do evento Dev em Dobro.
 
-[clique aqui para acessar]https://meiamonee.github.io/Projeto-Hat/
+[clique aqui para acessar](https://meiamonee.github.io/Projeto-Hat/)
 
 >## Tecnologias
 
