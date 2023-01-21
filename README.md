@@ -2,7 +2,7 @@
 
 ![preview](./.github/preview.png)
 
->## Trilha Explorer
+>## 
 
 Projeto construido do evento Dev em Dobro.
 
