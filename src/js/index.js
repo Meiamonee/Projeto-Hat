@@ -6,6 +6,7 @@ const botaoTrailer = document.querySelector(".botao-trailer");
 const video  = document.getElementById("video");
 const modal = document.querySelector(".modal");
 const botaoFecharModal = document.querySelector(".fechar-modal");
+const linkDoVideo = video.src;
 
 function alternarModal(){
     modal.classList.toggle("aberto");
@@ -15,7 +16,7 @@ function alternarModal(){
 botaoTrailer.addEventListener("click", () => {
     // passo 4 - abrir a modal na tela 
     alternarModal(); 
-    video.setAttribute("src", "https://www.youtube.com/embed/qDNz8JDIPck");
+    video.setAttribute("src", linkDoVideo);
 });
 
 //passo 2 - dar um jeito de identificar quando o usuario clilcar no X
