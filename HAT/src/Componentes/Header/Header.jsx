@@ -2,8 +2,8 @@ import hatlogo from '../../assets/hatlogo.webp';
 
 function Header() {
     return (
-        <div className=" flex flex-col justify-center items-center gap-6 mt-6">
-            <a className="w-17">
+        <div className="flex flex-col justify-center items-center gap-6 mt-6 lg:flex-row lg:justify-between lg:px-20">
+            <a className="w-17 lg:w-20" href="#">
                 <img src={hatlogo} alt="Logo do site" />
             </a>
             <nav className="flex gap-4 text-2xl">

@@ -3,15 +3,14 @@
 
 /* Limpa margem e padding de todos os elementos */
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
-html, body {
-  padding: 0;
-  margin: 0;
- background-color: rgb(3, 61, 84);
- 
-}
+/* Não definimos margem e padding aqui, pois o Tailwind já cuida disso */
+/* html, body {
+  padding: 0;
+  margin: 0;
+} */
 
 
 /* Garante que imagens e mídia se comportem de forma previsível */
@@ -20,17 +19,17 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+ display: block;
+ max-width: 100%;
 }
 
 /* Remove estilos de lista padrão */
 ul,
 ol {
-    list-style: none;
+list-style: none;
 }
 
 /* Remove a sublinhado de links por padrão */
 a {
-    text-decoration: none;
+ text-decoration: none;
 }
