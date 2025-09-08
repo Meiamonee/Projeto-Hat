@@ -7,8 +7,9 @@ function Header() {
                 <img src={hatlogo} alt="Logo do site" />
             </a>
             <nav className="flex gap-4 text-2xl">
-                <a className="text-white font-bold hover:bg-red-500 px-3 py-3 rounded-full transition-colors duration-300 " href="#">Home</a> 
-                <a className="text-white font-bold hover:bg-red-500 px-3 py-3 rounded-full transition-colors duration-300" href="#">Detalhes</a> 
+                <a className="text-white font-bold hover:text-red-400 px-3 py-3 rounded-full transition-colors duration-300 " href="#">Home</a> 
+                <a className="text-white font-bold hover:text-red-400 px-3 py-3 rounded-full transition-colors duration-300" href="#">Mapas</a> 
+                <a className="text-white font-bold hover:text-red-400 px-3 py-3 rounded-full transition-colors duration-300" href="#">Personagens</a> 
             </nav>
         </div>
     );
