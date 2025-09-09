@@ -1,9 +1,14 @@
-
+import banner1 from '../assets/banner1.webp';
 
 function Mapas() {
     return (
-        <div className="flex flex-col justify-center items-center gap-6 mt-6 lg:flex-row lg:justify-between lg:px-20">
-            <h1 className="text-white font-bold text-4xl">Mapas</h1>
+        <div>
+            <img className="w-full h-auto" src={banner1} alt="primeiro banner" />
+            <div className="flex justify-center mt-6">
+                <h1 className="text-white text-5xl font-bold">
+                    ACT 1
+                </h1>
+            </div>
         </div>
     );
 }
